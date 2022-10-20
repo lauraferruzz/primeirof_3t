@@ -38,6 +38,3 @@ function escreva(){
      document.write("Mês " + i + " - valor: " + r + "<br>");
      v = r;
     }
-    
-    document.write("Resultado: " + r);
- }
