@@ -1,12 +1,12 @@
-..calculadora{
-    background:rgb(142, 135, 197);
+.calculadora{
+    background:rgb(115, 171, 197);
     width: 200px;
     padding: 10px;
     border-radius: 20px;
     text-align: center;
 }
 .calculadora input{
-    background: rosybrown;
+    background: rgb(158, 64, 64);
     color: rgb(70, 63, 56);
     padding: 10px;
     border-radius: 20px;
@@ -29,4 +29,16 @@
     background: rgb(211, 209, 209);
     color: rgb(116, 19, 19);
     cursor: help;
+}
+.calcF{
+    display: none;
+}
+#input-calcF{
+    display: none;
+}
+h4{
+    color: aliceblue;
+}
+#input-calcF:checked + .calculadora .calcF {
+    display: block;
 }
